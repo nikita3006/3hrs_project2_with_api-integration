@@ -1,0 +1,41 @@
+.menuItems{
+    background-color: firebrick;
+    padding: 5px;
+    width: 600px;
+    display: block;
+    margin: 30px auto;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid firebrick;
+}
+
+.btn{
+    padding: 9px 16px;
+    margin: 5px;
+    border-radius: 16px;
+    background-color: lightblue;
+}
+
+.btn:hover{
+    background-color: lightgray;
+    border: 1px solid lightcoral;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px 12px 10px 12px;
+  }
+
+.actions{
+    float: right;
+    
+}
